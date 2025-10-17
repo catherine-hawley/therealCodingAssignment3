@@ -1,0 +1,99 @@
+body {
+
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no repeat;
+  font-family: "Helvetica";
+  color: darkred;
+  font-size: 18px;
+}
+
+
+.wrapper {
+
+  display: flex;
+
+}
+
+.wrapper div {
+
+  flex: 1;
+  padding-left: 50px;
+  margin: auto;
+}
+ 
+
+h1 {
+    font-family: "Helvetica";
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    font-size: 60px;
+    color: darkred;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: "Helvetica";
+    font-size: 30px;
+    text-align: center;
+  color: darkred;
+} 
+
+.featured {
+    font-size: 2.5em;
+
+}
+
+.box2 {
+    display: grid;
+    place-items: center;  /* Centers both horizontally and vertically */
+}
+
+
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.box5 {
+
+    display: grid;
+    place-items: center; 
+    margin: auto;  
+        
+}
+
+ul li  {
+    font-family: "Arial";
+color: navy;
+margin-left: 25px;
+font-size: 18px;
+}
+
+ol li {
+    color: navy;
+     font-family: Arial;
+  font-size: 20px;
+}
+
+p {
+    font-family: Arial;
+    font-style: oblique;
+    font-size: 14px;
+}
+
+figcaption {
+    font-family: Arial;
+    color: navy;
+     font-size: 12px;
+     font-weight: bold;
+     text-align: right;
+}
+
+  
